@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "ef8ad486-77b8-46d1-91e2-672026290829",
+		"_postman_id": "f4d92397-13b1-43c0-bb92-b4e54639a69e",
 		"name": "iFOX",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "/groups",
+			"name": "/groups (All groups)",
 			"request": {
 				"method": "GET",
 				"header": [
@@ -34,7 +34,7 @@
 			"response": []
 		},
 		{
-			"name": "/users",
+			"name": "/users (All users)",
 			"request": {
 				"method": "GET",
 				"header": [
@@ -136,7 +136,7 @@
 			"response": []
 		},
 		{
-			"name": "/users/3 (Update user details)",
+			"name": "/users/{id} (Update user details)",
 			"request": {
 				"method": "PUT",
 				"header": [
@@ -174,7 +174,7 @@
 			"response": []
 		},
 		{
-			"name": "/groups/3 (Update group details)",
+			"name": "/groups/{id} (Update group details)",
 			"request": {
 				"method": "PUT",
 				"header": [
@@ -212,7 +212,7 @@
 			"response": []
 		},
 		{
-			"name": "/users/2 (Change user group)",
+			"name": "/users/{id} (Change user group)",
 			"request": {
 				"method": "PUT",
 				"header": [
@@ -224,7 +224,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"groups\": \"/groups/3\"\r\n}",
+					"raw": "{\r\n    \"groups\": \"/groups/1\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -250,7 +250,7 @@
 			"response": []
 		},
 		{
-			"name": "/users/4 (Remove user - group)",
+			"name": "/users/{id} (Remove user from group)",
 			"request": {
 				"method": "PUT",
 				"header": [
@@ -270,7 +270,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/users/4",
+					"raw": "http://127.0.0.1:8000/users/1",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -281,14 +281,14 @@
 					"port": "8000",
 					"path": [
 						"users",
-						"4"
+						"1"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "/users/5 (Delete user)",
+			"name": "/users/{id} (Delete user)",
 			"request": {
 				"method": "DELETE",
 				"header": [
@@ -326,7 +326,7 @@
 			"response": []
 		},
 		{
-			"name": "/groups/2 (Delete group with user)",
+			"name": "/groups/{id} (Delete group with user)",
 			"request": {
 				"method": "DELETE",
 				"header": [
@@ -346,7 +346,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/groups/2",
+					"raw": "http://127.0.0.1:8000/groups/1",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -357,14 +357,14 @@
 					"port": "8000",
 					"path": [
 						"groups",
-						"2"
+						"1"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "/groups/5 (Delete group without user)",
+			"name": "/groups/{id} (Delete group without user)",
 			"request": {
 				"method": "DELETE",
 				"header": [
@@ -384,7 +384,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/groups/5",
+					"raw": "http://127.0.0.1:8000/groups/3",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -395,11 +395,46 @@
 					"port": "8000",
 					"path": [
 						"groups",
-						"5"
+						"3"
 					]
 				}
 			},
 			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "21232f297a57a5a743894a0e4a801fc3",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "X-Client",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
 		}
 	]
 }
