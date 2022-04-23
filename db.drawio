@@ -1,30 +1,35 @@
 <mxfile host="65bd71144e">
     <diagram id="8jyqqip0owV2ZT55Ed27" name="Page-1">
-        <mxGraphModel dx="1458" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1458" dy="1009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="15" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;groups&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="100" y="280" width="120" height="60" as="geometry"/>
+                <mxCell id="15" value="&lt;div style=&quot;font-family: &amp;quot;droid sans mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 26px&quot;&gt;groups&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;labelBorderColor=none;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="280" width="240" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="&lt;ul style=&quot;font-size: 22px;&quot;&gt;&lt;li style=&quot;font-size: 22px;&quot;&gt;id&lt;/li&gt;&lt;li style=&quot;font-size: 22px;&quot;&gt;details&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=22;" vertex="1" parent="1">
-                    <mxGeometry x="100" y="340" width="120" height="120" as="geometry"/>
+                <mxCell id="16" value="&lt;ul style=&quot;font-size: 22px&quot;&gt;&lt;li style=&quot;font-size: 22px&quot;&gt;id (int)&lt;/li&gt;&lt;li style=&quot;font-size: 22px&quot;&gt;details (text)&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=22;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="340" width="240" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;users&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="580" y="280" width="120" height="60" as="geometry"/>
+                <mxCell id="17" value="&lt;div style=&quot;font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace ; line-height: 19px&quot;&gt;&lt;font style=&quot;font-size: 26px&quot;&gt;users&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#000000;strokeColor=#2D7600;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="280" width="280" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="&lt;ul style=&quot;font-size: 22px;&quot;&gt;&lt;li style=&quot;font-size: 22px;&quot;&gt;id&lt;/li&gt;&lt;li style=&quot;font-size: 22px;&quot;&gt;group_id&lt;/li&gt;&lt;li style=&quot;font-size: 22px;&quot;&gt;name&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=22;" vertex="1" parent="1">
-                    <mxGeometry x="580" y="340" width="160" height="150" as="geometry"/>
+                <mxCell id="18" value="&lt;ul style=&quot;font-size: 22px&quot;&gt;&lt;li style=&quot;font-size: 22px&quot;&gt;id (int)&lt;/li&gt;&lt;li style=&quot;font-size: 22px&quot;&gt;group_id (FK)&lt;/li&gt;&lt;li style=&quot;font-size: 22px&quot;&gt;name (varchar 255)&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="340" width="280" height="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;entryX=1.03;entryY=0.372;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="18" target="16">
+                <mxCell id="19" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;strokeColor=#00CC66;strokeWidth=3;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="410" y="710" as="sourcePoint"/>
-                        <mxPoint x="460" y="660" as="targetPoint"/>
+                        <mxPoint x="520" y="420" as="sourcePoint"/>
+                        <mxPoint x="270" y="384" as="targetPoint"/>
                         <Array as="points">
+                            <mxPoint x="380" y="410"/>
+                            <mxPoint x="10" y="280"/>
                             <mxPoint x="400" y="415"/>
                             <mxPoint x="460" y="380"/>
                         </Array>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="&lt;font face=&quot;sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;- I can assign users to a group&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;- I can delete groups when they no longer have members.&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="550" width="420" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

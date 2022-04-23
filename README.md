@@ -14,7 +14,7 @@
 - Download : `git clone https://github.com/fadilxcoder/ifox-api-test.git`
 - Goto `ifox-api-test/docker/`
 - Build project : `docker-compose up --build -d`
-- Connect to project CLI : `docker exec -it fx_php_fpm ash`
+- Connect to project CLI (linux) : `docker exec -it fx_php_fpm ash` / (windows) : `winpty docker exec -it fx_php_fpm ash`
 - - `composer install`
 - - `php bin/console doctrine:migrations:migrate --no-interaction && php bin/console doctrine:fixtures:load --no-interaction`
 - Swagger GUI : http://localhost:8000/
