@@ -1,12 +1,13 @@
 {
 	"info": {
-		"_postman_id": "f4d92397-13b1-43c0-bb92-b4e54639a69e",
-		"name": "iFOX",
+		"_postman_id": "30977778-b463-4960-89f9-afba9a90df2b",
+		"name": "Symfony IFX - Docker",
+		"description": "[https://github.com/fadilxcoder/symfony-api-ifx.git](https://github.com/fadilxcoder/symfony-api-ifx.git)",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "/groups (All groups)",
+			"name": "/groups",
 			"request": {
 				"method": "GET",
 				"header": [
@@ -34,7 +35,7 @@
 			"response": []
 		},
 		{
-			"name": "/users (All users)",
+			"name": "/users",
 			"request": {
 				"method": "GET",
 				"header": [
@@ -62,7 +63,7 @@
 			"response": []
 		},
 		{
-			"name": "/users (Add user)",
+			"name": "/users",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -99,7 +100,7 @@
 			"response": []
 		},
 		{
-			"name": "/groups (Add group)",
+			"name": "/groups",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -136,7 +137,7 @@
 			"response": []
 		},
 		{
-			"name": "/users/{id} (Update user details)",
+			"name": "/users/{id}",
 			"request": {
 				"method": "PUT",
 				"header": [
@@ -174,7 +175,7 @@
 			"response": []
 		},
 		{
-			"name": "/groups/{id} (Update group details)",
+			"name": "/groups/{id}",
 			"request": {
 				"method": "PUT",
 				"header": [
@@ -212,7 +213,7 @@
 			"response": []
 		},
 		{
-			"name": "/users/{id} (Change user group)",
+			"name": "/users/{id}",
 			"request": {
 				"method": "PUT",
 				"header": [
@@ -250,7 +251,7 @@
 			"response": []
 		},
 		{
-			"name": "/users/{id} (Remove user from group)",
+			"name": "/users/{id}",
 			"request": {
 				"method": "PUT",
 				"header": [
@@ -288,7 +289,7 @@
 			"response": []
 		},
 		{
-			"name": "/users/{id} (Delete user)",
+			"name": "/users/{id}",
 			"request": {
 				"method": "DELETE",
 				"header": [
@@ -326,7 +327,7 @@
 			"response": []
 		},
 		{
-			"name": "/groups/{id} (Delete group with user)",
+			"name": "/groups/{id}",
 			"request": {
 				"method": "DELETE",
 				"header": [
@@ -364,7 +365,7 @@
 			"response": []
 		},
 		{
-			"name": "/groups/{id} (Delete group without user)",
+			"name": "/groups/{id}",
 			"request": {
 				"method": "DELETE",
 				"header": [
