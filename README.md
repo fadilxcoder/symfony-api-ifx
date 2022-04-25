@@ -11,8 +11,7 @@
 
 # Installation
 
-- Download : `git clone https://github.com/fadilxcoder/ifox-api-test.git`
-- Goto `ifox-api-test/docker/`
+- Goto `<REPO>/docker/`
 - Build project : `docker-compose up --build -d`
 - Connect to project CLI (linux) : `docker exec -it fx_php_fpm ash` / (windows) : `winpty docker exec -it fx_php_fpm ash`
 - - `composer install`
